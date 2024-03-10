@@ -1,55 +1,83 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <h1>
-            Room Reservation
-        </h1>
-        <br>
 
-        <table>
-            <tr>
-                <th>Room Number</th>
-                <th>Date</th>
-                <th>Start time</th>
-                <th>End time </th>
-                <th>Purpose</th>
+<head>
 
-            </tr>
-            <tr>    
-                <td> A-100</td>
-                <td> 2024-02-28</td>
-                <td> 9:00</td>
-                <td> 11:00</td>
-                <td> Research Meeting</td>
-            </tr>
-            <tr>    
-                <td> A-120</td>
-                <td> 2024-02-21</td>
-                <td> 9:10</td>
-                <td> 12:00</td>
-                <td> Thesis Presentation</td>
-            </tr>
-            <tr>    
-                <td> A-10</td>
-                <td> 2024-02-23</td>
-                <td> 8:00</td>
-                <td> 10:00</td>
-                <td> Study Group</td>
-            </tr>
-            <tr>    
-                <td> A-121</td>
-                <td> 2024-03-26</td>
-                <td> 14:45</td>
-                <td> 21:00</td>
-                <td> Journal Club</td>
-            </tr>
-            <tr>    
-                <td> A-80</td>
-                <td> 2024-03-21</td>
-                <td> 17:10</td>
-                <td> 18:00</td>
-                <td> Guest Lecture</td>
-            </tr>
-        </table>
-    </body>
+  <link rel="stylesheet" href="../Css/style.css">
+  <link rel="stylesheet" href="../Css/animation.css">
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .res-table {
+      width: 80%; 
+      margin-top: 20px; 
+      border-collapse: collapse;
+    }
+
+    .res-table th, .res-table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    .res-table th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<title>Room Reservation</title>
+<body>
+  <h1>Room Reservation</h1>
+  <br>
+  <table class="res-table">
+    <tr>
+      <th>Room Number</th>
+      <th>Date</th>
+      <th>Start time</th>
+      <th>End time</th>
+      <th>Purpose</th>
+    </tr>
+    <tr>
+      <td>A-100</td>
+      <td>2024-02-28</td>
+      <td>9:00</td>
+      <td>11:00</td>
+      <td>Research Meeting</td>
+    </tr>
+    <tr>
+      <td>A-120</td>
+      <td>2024-02-21</td>
+      <td>9:10</td>
+      <td>12:00</td>
+      <td>Thesis Presentation</td>
+    </tr>
+    <tr>
+      <td>A-10</td>
+      <td>2024-02-23</td>
+      <td>8:00</td>
+      <td>10:00</td>
+      <td>Study Group</td>
+    </tr>
+    <tr>
+      <td>A-121</td>
+      <td>2024-03-26</td>
+      <td>14:45</td>
+      <td>21:00</td>
+      <td>Journal Club</td>
+    </tr>
+    <tr>
+      <td>A-80</td>
+      <td>2024-03-21</td>
+      <td>17:10</td>
+      <td>18:00</td>
+      <td>Guest Lecture</td>
+    </tr>
+  </table>
+</body>
 </html>
