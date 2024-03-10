@@ -38,3 +38,32 @@ body {
     width: 100%;
     height: 100%;
   }
+  .tbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    
+  }
+
+  .res-table {
+    width: 80%; 
+    margin-top: 20px; 
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .res-table th, .res-table td {
+    border: 1px solid #a7a4a4;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .res-table th {
+    background-color: #bbb4b4;
+  }
