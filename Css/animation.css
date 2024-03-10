@@ -1,0 +1,8 @@
+button:hover {
+    background-color:green;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .res-table tr:hover {
+    background-color: green;
+    transition: background-color 0.3s ease-in-out;
+  }
