@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arda_\\Ceng382_23_24_s_202011073\\RazorPage\\RazorPage.csproj",
+      "projectUniqueName": "C:\\Users\\arda_\\OneDrive\\Masaüstü\\ceng382lab\\Ceng382_23_24_s_202011073\\RazorPage\\RazorPage.csproj",
       "projectName": "RazorPage",
-      "projectPath": "C:\\Users\\arda_\\Ceng382_23_24_s_202011073\\RazorPage\\RazorPage.csproj",
+      "projectPath": "C:\\Users\\arda_\\OneDrive\\Masaüstü\\ceng382lab\\Ceng382_23_24_s_202011073\\RazorPage\\RazorPage.csproj",
       "packagesPath": "C:\\Users\\arda_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arda_\\Ceng382_23_24_s_202011073\\RazorPage\\obj\\",
+      "outputPath": "C:\\Users\\arda_\\OneDrive\\Masaüstü\\ceng382lab\\Ceng382_23_24_s_202011073\\RazorPage\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arda_\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
