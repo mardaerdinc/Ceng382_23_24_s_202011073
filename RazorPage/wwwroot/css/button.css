@@ -1,0 +1,46 @@
+.calculate-button{
+    background-color: blue;
+    color: white;
+    border-radius: 40%;
+    box-shadow: inset 0 0 0 0 rgb(192, 96, 7);
+   transition: ease-in-out 0.9s;
+  
+   outline: none;
+   height: 40px;
+   width: 190px;
+}
+.calculate-button:hover{
+box-shadow:  inset 400px 0 0 0 pink;
+cursor: pointer;
+color: black;
+}
+
+.hide-button{
+    background-color: rgb(255, 3, 24);
+    color:white;
+    border-radius: 40%;
+    box-shadow: inset 0 0 0 0 rgb(192, 96, 7);
+    transition: ease-out 0.9s;
+   
+    outline: none;
+    height: 40px;
+    width: 190px;
+}
+.hide-button:hover{
+    box-shadow: inset 400px 0 0 0 blue;
+    cursor: pointer;
+    color: black;
+}
+
+.result-Box{
+    height: 100px;
+    width: 190px;
+    background-color:lightblue;
+    border-radius: 10%;
+    display: inline-block;
+    line-height: 100px;
+    text-align: center;
+}
+#selam {
+    display: none; 
+  }
